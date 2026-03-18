@@ -55,10 +55,16 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
+<<<<<<< HEAD
   public Date(int tag, int monat, int jahr) { this.day = tag;
 
     this.month = monat; this.year = jahr;
 
+=======
+  // Constructor modified by the owner
+  public Date(int dia, int mes, int año) { this.day = dia;
+    this.month = mes; this.year = año;
+>>>>>>> c17479dbfc5418ba7104a3b106e6e810abdee106
   }
   public  int Ricardo;
   public void MethodAddedByOwner() {
